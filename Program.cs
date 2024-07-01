@@ -5,7 +5,7 @@ Console.WriteLine("Hello, World!");
 
 LinqQueries queries = new LinqQueries();
 
-ImprimirValores(queries.TodaLaColeccion());
+ImprimirValores(queries.LibrosConMasde250PagConPlabraInAction());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
@@ -15,3 +15,4 @@ void ImprimirValores(IEnumerable<Book> listdelibros)
         Console.WriteLine("{0, -70} {1,7} {2,11}", item.Title, item.PageCount, item.PublishedDate.ToShortDateString());
     }
 }
+
