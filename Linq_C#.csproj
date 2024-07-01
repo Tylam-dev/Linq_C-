@@ -8,8 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemgGroup>
+  <ItemGroup>
     <Content Include="books.json"/>
-  </ItemgGroup>
+  </ItemGroup>
 
 </Project>

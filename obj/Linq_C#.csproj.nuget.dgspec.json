@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C#/Linq_C#.csproj": {}
+    "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C-/Linq_C#.csproj": {}
   },
   "projects": {
-    "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C#/Linq_C#.csproj": {
+    "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C-/Linq_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C#/Linq_C#.csproj",
+        "projectUniqueName": "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C-/Linq_C#.csproj",
         "projectName": "Linq_C#",
-        "projectPath": "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C#/Linq_C#.csproj",
+        "projectPath": "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C-/Linq_C#.csproj",
         "packagesPath": "/Users/tyronevera/.nuget/packages/",
-        "outputPath": "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C#/obj/",
+        "outputPath": "/Users/tyronevera/Documents/programacion/curso_csharp/Linq_C-/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tyronevera/.nuget/NuGet/NuGet.Config"
