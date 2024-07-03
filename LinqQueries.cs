@@ -49,4 +49,17 @@ public class LinqQueries
    {
     return librosCollections.Where(p => p.PageCount > 450).OrderByDescending(p => p.Title);
    }
+   public IEnumerable<Book> Libros3RecientesJava()
+   {
+    return librosCollections.Where(p => p.Categories.Contains("Java")).OrderByDescending(p => p.PublishedDate).Take(3);
+   }
+   public IEnumerable<Book> TercerCuartLibro400Pag()
+   {
+        return librosCollections.Where(p => p.PageCount > 400).Take(4).Skip(2);
+   }
+   public IEnumerable<Book> TresPrimerosLibrosDeLaColeccion()
+   {
+        return librosCollections.Take(3)
+        .Select(p =>  new Book() { Title = p.Title, PageCount = p.PageCount });
+   }
 }

@@ -10,7 +10,10 @@ LinqQueries queries = new LinqQueries();
 // Console.WriteLine(queries.AlgunLibroFuePublicadoEn2005());
 // ImprimirValores(queries.LibrosDePython());
 // ImprimirValores(queries.LibrosDeJavaPorNombreAsc());
-ImprimirValores(queries.LibroMasDe450PagDes());
+// ImprimirValores(queries.LibroMasDe450PagDes());
+// ImprimirValores(queries.Libros3RecientesJava());
+// ImprimirValores(queries.TercerCuartLibro400Pag());
+ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
