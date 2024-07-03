@@ -5,7 +5,9 @@ Console.WriteLine("Hello, World!");
 
 LinqQueries queries = new LinqQueries();
 
-ImprimirValores(queries.LibrosConMasde250PagConPlabraInAction());
+// ImprimirValores(queries.LibrosConMasde250PagConPlabraInAction());
+// Console.WriteLine(queries.TodosLosLibrosTienenStatus());
+Console.WriteLine(queries.AlgunLibroFuePublicadoEn2005());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
