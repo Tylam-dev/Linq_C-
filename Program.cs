@@ -7,7 +7,10 @@ LinqQueries queries = new LinqQueries();
 
 // ImprimirValores(queries.LibrosConMasde250PagConPlabraInAction());
 // Console.WriteLine(queries.TodosLosLibrosTienenStatus());
-Console.WriteLine(queries.AlgunLibroFuePublicadoEn2005());
+// Console.WriteLine(queries.AlgunLibroFuePublicadoEn2005());
+// ImprimirValores(queries.LibrosDePython());
+// ImprimirValores(queries.LibrosDeJavaPorNombreAsc());
+ImprimirValores(queries.LibroMasDe450PagDes());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
