@@ -16,7 +16,11 @@ LinqQueries queries = new LinqQueries();
 // ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
 // Console.WriteLine(queries.Entre200Y500PagCount());
 // Console.WriteLine(queries.MenorFecha());
-Console.WriteLine(queries.MayorNumPaginas());
+// Console.WriteLine(queries.MayorNumPaginas());
+// var libroMenorPag = queries.MenorCantPagMayor0();
+var libroMayorFecha = queries.LibroMayorfecha();
+// Console.WriteLine($"{libroMenorPag.Title}");
+Console.WriteLine($"{libroMayorFecha.Title}");
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
