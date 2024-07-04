@@ -13,7 +13,10 @@ LinqQueries queries = new LinqQueries();
 // ImprimirValores(queries.LibroMasDe450PagDes());
 // ImprimirValores(queries.Libros3RecientesJava());
 // ImprimirValores(queries.TercerCuartLibro400Pag());
-ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+// ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+// Console.WriteLine(queries.Entre200Y500PagCount());
+// Console.WriteLine(queries.MenorFecha());
+Console.WriteLine(queries.MayorNumPaginas());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {

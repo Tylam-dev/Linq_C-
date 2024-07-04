@@ -62,4 +62,16 @@ public class LinqQueries
         return librosCollections.Take(3)
         .Select(p =>  new Book() { Title = p.Title, PageCount = p.PageCount });
    }
+   public int Entre200Y500PagCount()
+   {
+        return librosCollections.Count(p => p.PageCount >= 200 && p.PageCount <= 500);
+   }
+   public DateTime MenorFecha()
+   {
+        return librosCollections.Min(p => p.PublishedDate);
+   }
+   public int MayorNumPaginas()
+   {
+        return librosCollections.Max(p => p.PageCount);
+   }
 }
